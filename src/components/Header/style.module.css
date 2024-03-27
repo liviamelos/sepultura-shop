@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--color-gray);
+    padding: 10px;
+    height: 69px;
+}
+
+@media (min-width: 1024px){
+    .header{
+        height: 84px;
+    }
+}

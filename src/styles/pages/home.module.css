@@ -1,0 +1,24 @@
+.flexBox{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+@media (min-width: 850px){
+    .flexBox{
+        flex-direction: row;
+    }
+
+    .left{
+        width: 100%;
+        max-width: 385px;
+    }
+}

@@ -1,0 +1,33 @@
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    transition: .4s;
+
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+
+    border-radius: 255px;
+}
+
+.btn.lg{
+    padding: 0 25px;
+    height: 49px;
+}
+
+.btn.sm{
+    padding: 0 15px;
+    height: 35px;
+}
+
+.btn.solid1{
+    background: var(--color-red);
+    color: var(--color-white);
+}
+
+.btn.solid1:hover{
+    filter: brightness(1.1);
+}

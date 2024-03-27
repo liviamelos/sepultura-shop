@@ -1,0 +1,26 @@
+.numberBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    gap: 20px;
+
+    padding: 20px 30px; 
+
+    border: 1px solid var(--color-red);
+    border-radius: 255px;
+}
+
+@media (min-width: 400px){
+    .numberBox{
+        flex-direction: row;
+    }    
+}
+
+@media (min-width: 850px){
+    .numberBox{
+        justify-content: flex-end;
+    }    
+}
